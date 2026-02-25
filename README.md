@@ -4,7 +4,7 @@ This is a bash pipeline to generate families of regulatory elements within a gen
 Call the bash scripts in order.
 
 Inputs to this pipeline:
-  1. A refernce genome
+  1. A reference genome
   2. A set of regulatory element annotations (or a fastq file of epigenetic data, which will be turned into a regulatory element set in step 4)
 
 The outputs will contain a clusters of putative regulatory elements that contain >70% sequence identity within a cluster. All clusters will be given a unique identifier.
